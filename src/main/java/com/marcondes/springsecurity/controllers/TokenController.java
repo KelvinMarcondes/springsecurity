@@ -2,7 +2,6 @@ package com.marcondes.springsecurity.controllers;
 
 import com.marcondes.springsecurity.controllers.dto.LoginRequest;
 import com.marcondes.springsecurity.controllers.dto.LoginResponse;
-import com.marcondes.springsecurity.entities.User;
 import com.marcondes.springsecurity.repositories.UserRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.BadCredentialsException;
